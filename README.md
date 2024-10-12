@@ -6,6 +6,13 @@
 
 
 
-## Acknowledgements
+## run diistillation methds
+cd Distillation\ GNNtoMLP  you can run the poular baselines such as  LinkDist, GraphMLP, AdaGMLP, etc   
 
-## Citation
+
+
+## DCGRL
+
+cd examples\
+
+python main.py
