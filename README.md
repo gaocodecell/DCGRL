@@ -1,8 +1,8 @@
-# DCGRL: Distillation with Contrastive is all you need in Graph Representation Learning
+# TACo: disTillAtion with Contrastive is all you need in graph representation learning
 
 ## Framework
 
-![Framework](DCGRL.png)
+![Framework](TACo.png)
 
 
 
