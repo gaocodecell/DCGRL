@@ -16,3 +16,9 @@ cd Distillation\ GNNtoMLP  you can run the poular baselines such as  LinkDist, G
 cd examples\
 
 python main.py
+
+
+
+## Data augmentation
+
+Improving Contrastive Learning with Model Augmentation [\[paper\]](https://arxiv.org/abs/2203.15508) [\[code\]] (https://github.com/salesforce/SRMA)
