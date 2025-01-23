@@ -31,8 +31,6 @@ python main.py
 
 -[MVGRL]  Contrastive Multi-View Representation Learning on Graphs  in *ICML*，2020. [\[paper\]](https://arxiv.org/abs/2006.05582)  [\[code\]](https://github.com/kavehhassani/mvgrl)
 
--[HomoGCL]  HomoGCL: Rethinking Homophily in Graph Contrastive Learning in *KDD*, 2024. [\[paper\]](https://arxiv.org/abs/2306.09614)  [\[code\]](https://github.com/wenzhilics/HomoGCL)
-
 ## Model augmentation
 
 -[MAGCL] MAGCL: Model augmentation tricks for graph contrastive learning  in *AAAI*, 2023. [\[paper\]](https://ojs.aaai.org/index.php/AAAI/article/view/25547)   [\[code\]](https://github.com/GXM1141/MA-GCL)
