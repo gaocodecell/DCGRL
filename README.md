@@ -6,8 +6,8 @@
 
 
 
-## run diistillation methds
-cd Distillation\ GNNtoMLP  you can run the poular baselines such as  LinkDist, GraphMLP, AdaGMLP, etc   
+## run semi-supervised distillation methds
+cd \Distillation\GNNtoMLP  you can run the poular baselines such as  LinkDist, GraphMLP, AdaGMLP, etc   
 
 
 
