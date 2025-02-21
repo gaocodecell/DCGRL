@@ -1,4 +1,4 @@
-#SSD: Self-supervised Distillation for Heterophilic Graph Representation Learning
+##SSD: Self-supervised Distillation for Heterophilic Graph Representation Learning
 
 ## Framework
 
@@ -24,7 +24,7 @@ python main.py
 
 
 
-#Acknowledge 
+##Acknowledge 
 
 The code is implemented based on  Contrastive Multi-View Representation Learning on Graphs. [\[code\]](https://github.com/kavehhassani/mvgrl)
 
