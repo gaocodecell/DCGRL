@@ -6,12 +6,17 @@
 
 
 
-## run semi-supervised distillation methds
-cd \Distillation\GNNtoMLP  you can run the poular baselines such as  LinkDist, GraphMLP, AdaGMLP, etc   
+## Environment Settings
+This implementation is based on Python3. To run the code, you need the following dependencies:
+
+* python 3.8
+* torch 1.13.0
+* numpy 1.24.3
+* dgl 1.12
 
 
-
-## DCGRL
+## SSD
+The data folder contains five heterophilic  benchmark datasets (Chameleon, Squirrel, Cornell, Texas, Wisconsin), and five homophilic datasets (Cora, Citeseer, Pubmed, Photo, Physics).
 
 cd examples\
 
@@ -19,21 +24,7 @@ python main.py
 
 
 
-## Data augmentation
+#Acknowledge 
 
--[COLES]  Contrastive laplacian eigenmaps in *NeurIPS*, 2021. [\[paper\]](https://proceedings.neurips.cc/paper/2021/hash/2d1b2a5ff364606ff041650887723470-Abstract.html)  [\[code\]](https://github.com/allenhaozhu/COLES)
-
--[HomoGCL]  HomoGCL: Rethinking Homophily in Graph Contrastive Learning in *KDD*, 2024. [\[paper\]](https://arxiv.org/abs/2306.09614)  [\[code\]](https://github.com/wenzhilics/HomoGCL)
-
--[GRACE] Deep Graph Contrastive Representation Learning  in *ICLR*, 2020. [\[paper\]](https://arxiv.org/abs/2006.04131)  [\[code\]](https://github.com/CRIPAC-DIG/GRACE)
-
--[GraphCL] Graph Contrastive Learning with Augmentations  in *NeurIPS*, 2020. [\[paper\]](https://arxiv.org/abs/2010.13902)  [\[code\]](https://github.com/Shen-Lab/GraphCL)
-
--[MVGRL]  Contrastive Multi-View Representation Learning on Graphs  in *ICML*，2020. [\[paper\]](https://arxiv.org/abs/2006.05582)  [\[code\]](https://github.com/kavehhassani/mvgrl)
-
-## Model augmentation
-
--[MAGCL] MAGCL: Model augmentation tricks for graph contrastive learning  in *AAAI*, 2023. [\[paper\]](https://ojs.aaai.org/index.php/AAAI/article/view/25547)   [\[code\]](https://github.com/GXM1141/MA-GCL)
-
--[DC-GL] Deep Contrastive Graph Learning with Clustering-Oriented Guidance  in *AAAI*, 2024. [\[paper\]](https://ojs.aaai.org/index.php/AAAI/article/view/29016)   [\[code\]](https://github.com/drongwbc/DCGL-AAAI24)
+The code is implemented based on  [\[Contrastive Multi-View Representation Learning on Graphs \]] (https://github.com/kavehhassani/mvgrl)
 
