@@ -26,5 +26,6 @@ python main.py
 
 #Acknowledge 
 
-The code is implemented based on  [\[Contrastive Multi-View Representation Learning on Graphs \]] (https://github.com/kavehhassani/mvgrl)
+The code is implemented based on  Contrastive Multi-View Representation Learning on Graphs. [\[code\]](https://github.com/kavehhassani/mvgrl)
+
 
