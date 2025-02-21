@@ -16,7 +16,7 @@ This implementation is based on Python3. To run the code, you need the following
 
 
 ## SSD
-The data folder contains five heterophilic  benchmark datasets (Chameleon, Squirrel, Cornell, Texas, Wisconsin), and five homophilic datasets (Cora, Citeseer, Pubmed, Photo, Physics).
+The data folder contains five heterophilic  benchmark datasets (Chameleon, Squirrel, Cornell, Texas, Wisconsin), and five homophilic datasets (Cora, Citeseer, Pubmed, Computers, Photo).
 
 cd examples\
 
