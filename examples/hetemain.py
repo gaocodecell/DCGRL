@@ -87,14 +87,9 @@ else:
 
 
 def chose_stu(name, graph, g, feat, model):
-    small = ['cornell',  'wisconsin']
+    small = ['cornell',  'wisconsin'，'texas']
+ 
     if name in small:
-        h, embeds = model.get_embedding(graph, g, feat,0)
-        #np.save('drawfigures/teacher_{}'.format(name), h.cpu().numpy())
-        #np.save('drawfigures/student_{}'.format(name), embeds.cpu().numpy())
-        #torch.cat([h,embeds],dim=1)
-        return torch.cat([h,embeds],dim=1)
-    elif name=='texas':
         h, embeds = model.get_embedding(graph, g, feat, 0)
         return embeds
 
