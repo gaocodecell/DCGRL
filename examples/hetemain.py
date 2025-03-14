@@ -87,7 +87,7 @@ else:
 
 
 def chose_stu(name, graph, g, feat, model):
-    small = ['cornell',  'wisconsin'，'texas']
+    small = ['cornell',  'wisconsin', 'texas']
  
     if name in small:
         h, embeds = model.get_embedding(graph, g, feat, 0)
